@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        style="@style/tvBookOverview"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tv_book_overView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etBookName"
+            style="@style/etBookName"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif" />
+
+        <EditText
+            android:id="@+id/etBookPrice"
+            style="@style/etBookPrice"
+            android:fontFamily="sans-serif" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btnDecreaseQuantity"
+                style="@style/btnDecreaseQuantity"
+                android:layout_alignBottom="@+id/btnIncreaseQuantity" />
+
+            <EditText
+                android:id="@+id/etBookQuantity"
+                style="@style/etBookQuantity"
+                android:layout_toLeftOf="@+id/btnIncreaseQuantity"
+                android:layout_toRightOf="@+id/btnDecreaseQuantity"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/btnIncreaseQuantity"
+                style="@style/btnIncreaseQuantity" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/tvSupplierOverView"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/tv_supplier"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <EditText
+                android:id="@+id/etSupplierName"
+                style="@style/etSupplierName"
+                android:fontFamily="sans-serif" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etSupplierPhone"
+                    style="@style/etSupplierPhone"
+                    android:fontFamily="sans-serif" />
+                <ImageView
+                    android:id="@+id/imvCall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_call"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/btnDelete"
+        android:fontFamily="sans-serif-small"
+        android:text="@string/btn_delete" />
+
+</LinearLayout>

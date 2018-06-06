@@ -1,0 +1,198 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- This is Style for the MainActivity -->
+    <!-- ListView Style -->
+    <style name="lvBookData">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <!-- TextView Information Style -->
+    <style name="tvInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- ImageView Style -->
+    <style name="imageView">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Fab Button Style -->
+    <style name="fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <!-- This Style for the ListItem  -->
+    <style name="tvName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- TextView Price Style -->
+    <style name="tvPrice">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <!-- TextView Price Style -->
+    <style name="LabelPrice">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- TextView Quantity Style -->
+    <style name="tvQuantity">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <!-- TextView Quantity Style -->
+    <style name="LabelQuantity">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Button Sale Style -->
+    <style name="btnSale">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <!-- This Style for the Details Activity -->
+    <!-- TextView Book Overview Style  -->
+    <style name="tvBookOverview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- EditText Book Name Style -->
+    <style name="etBookName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:hint">@string/et_book_name</item>
+    </style>
+
+    <!-- EditText Book Price Style -->
+    <style name="etBookPrice">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:hint">@string/et_book_price</item>
+    </style>
+
+    <!-- Button Decrease Quantity Style -->
+    <style name="btnDecreaseQuantity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/min</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:minWidth">15dp</item>
+    </style>
+
+    <!-- EditText Book Quantity Style -->
+    <style name="etBookQuantity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:hint">@string/et_book_quantity</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- Button Increase Quantity Style -->
+    <style name="btnIncreaseQuantity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/add</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:minWidth">15dp</item>
+    </style>
+
+    <!-- TextView Supplier Overview Style -->
+    <style name="tvSupplierOverView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- EditText Supplier Name Style  -->
+    <style name="etSupplierName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint"> @string/et_supplier_name</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- EditText Supplier Phone Style  -->
+    <style name="etSupplierPhone">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint"> @string/et_supplier_phone</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- Button Delete Style -->
+    <style name="btnDelete">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

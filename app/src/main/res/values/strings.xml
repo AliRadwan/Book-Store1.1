@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Book Store </string>
+
+
+    <!-- Text in the MainActivity -->
+    <string name="tvInformation">
+       "  There is no Book's data in the Database
+        to add data click on Button add " </string>
+
+    <!-- List Item Text -->
+    <!-- TextView Price  -->
+    <string name="tv_price">Price =</string>
+    <!-- TextView Quantity  -->
+    <string name="tv_quantity">Quantity =</string>
+
+
+    <!-- Text in DetailsActivity -->
+    <!-- TextView Book OverView -->
+    <string name="tv_book_overView"> Book Overview </string>
+    <!-- TextView Supplier OverView -->
+    <string name="tv_supplier">" Supplier Overview "</string>
+    <!-- Button Delete  -->
+    <string name="btn_delete"> Delete </string>
+    <!-- EditText Book Name  -->
+    <string name="et_book_name"> Book Name </string>
+    <!-- EditText Book Price  -->
+    <string name="et_book_price"> Book Price </string>
+    <!-- EditText Book Quantity  -->
+    <string name="et_book_quantity"> Book Quantity </string>
+    <!-- EditText Supplier Name  -->
+    <string name="et_supplier_name"> Supplier Name </string>
+    <!-- EditText Supplier Phone  -->
+    <string name="et_supplier_phone"> Supplier Phone 002 </string>
+
+    <!-- Text in the DetailsActivity.JAVA -->
+    <!-- Set Title Add Book  -->
+    <string name="add_new_book"> Add New Book </string>
+    <!-- Set Title Edit Book  -->
+    <string name="edit_book"> Edit Book </string>
+
+    <!-- Set Text Error in Save Book  -->
+    <string name="error_save_book"> Error in save Book </string>
+
+    <!-- Set Text Book Save  -->
+    <string name="save_book"> Book Saved </string>
+
+    <!-- Set Text Error in Update Book  -->
+    <string name="error_update_book"> Error in Update Book </string>
+
+    <!-- Set Text Book Update   -->
+    <string name="update_book"> Book Updated </string>
+
+    <!-- showUnsavedChangesDialog -->
+    <string name="discard_changes_and_quite">Discard Changes and Quit</string>
+    <string name="discard">Discard</string>
+    <string name="keep_edit">Keep Editing</string>
+
+    <!-- showDeleteConfirmationDialog -->
+    <string name="delete_book">Delete This Book</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Text in Method Delete  -->
+    <string name="error_with_delete">Error with  deleting book</string>
+    <string name="book_delete">Book Delete</string>
+
+
+</resources>
